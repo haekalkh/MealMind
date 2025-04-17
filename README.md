@@ -15,7 +15,7 @@ MealMind is a computer vision-based project that identifies food types from imag
 ---
 
 ## 🗂️ Folder Structure
-
+```bash
 MealMind/
 ├── src/                   # Source code utama (deteksi makanan, AI, preprocessing, dsb)
 │   └── main.py
@@ -25,6 +25,7 @@ MealMind/
 ├── .gitignore             # Supaya file sampah gak ke-track
 ├── README.md              # Penjelasan project lo
 └── LICENSE                # Lisensi (MIT)
+```
 
 1. Clone this repository:
 
