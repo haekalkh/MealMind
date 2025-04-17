@@ -16,7 +16,15 @@ MealMind is a computer vision-based project that identifies food types from imag
 
 ## 🗂️ Folder Structure
 
-MealMind/ ├── src/ # Source code ├── assets/ # Images, models, dataset samples ├── docs/ # Research notes, diagrams ├── requirements.txt # Dependencies ├── .gitignore # Ignored files ├── LICENSE # MIT License └── README.md
+MealMind/
+├── src/                   # Source code utama (deteksi makanan, AI, preprocessing, dsb)
+│   └── main.py
+├── assets/                # Gambar, sample dataset, model YOLO, dll
+├── docs/                  # Dokumen pendukung (flowchart, literatur, catatan)
+├── requirements.txt       # Library yang dibutuhin
+├── .gitignore             # Supaya file sampah gak ke-track
+├── README.md              # Penjelasan project lo
+└── LICENSE                # Lisensi (MIT)
 
 1. Clone this repository:
 
@@ -33,6 +41,7 @@ pip install -r requirements.txt
 
 4. Run the main script (sample):
 python src/main.py
+```
 
 ## 🧾 Dependencies:
 opencv-python
