@@ -1,0 +1,19 @@
+{
+    "BMI": 45.73,
+    "Kategori BMI": "Obesitas",
+    "Kebutuhan Kalori Harian": 2460,
+    "Makanan Terdeteksi": [
+        "nasi_putih",
+        "sop_ayam",
+        "perkedel_kentang",
+        "tempe_goreng"
+    ],
+    "Total Nutrisi": {
+        "Kalori": 575.0,
+        "Protein": 25.8,
+        "Karbohidrat": 67.9,
+        "Lemak": 22.3,
+        "Serat": 4.2
+    },
+    "Persentase Kebutuhan Harian": "23.4%"
+}

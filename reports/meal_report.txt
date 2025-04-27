@@ -1,0 +1,18 @@
+
+=== MealMind V4 Report ===
+
+BMI Anda: 45.73
+Kategori BMI: Obesitas
+Estimasi Kebutuhan Kalori Harian: 2460 kcal
+
+Makanan Terdeteksi:
+nasi_putih, sop_ayam, perkedel_kentang, tempe_goreng
+
+Total Nutrisi 1 Piring:
+- Kalori     : 575.0 kcal
+- Protein    : 25.8 g
+- Karbohidrat: 67.9 g
+- Lemak      : 22.3 g
+- Serat      : 4.2 g
+
+Porsi kalori piring ini setara dengan 23.4% dari kebutuhan harian Anda.
