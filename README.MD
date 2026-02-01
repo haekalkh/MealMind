@@ -3,19 +3,20 @@
 
 ---
 
-## 📜 Deskripsi
+## 📜 Description
 
-MealMind V4 adalah sebuah sistem berbasis **Artificial Intelligence (AI)** yang mampu:
-- Mendeteksi berbagai jenis makanan dari gambar menggunakan model YOLOv8.
-- Menghitung total nutrisi dari makanan yang terdeteksi (kalori, protein, karbohidrat, lemak, serat).
-- Menghitung **BMI (Body Mass Index)** pengguna berdasarkan berat dan tinggi badan.
-- Mengestimasi kebutuhan kalori harian pengguna.
-- Memberikan analisis apakah piring tersebut sesuai dengan kebutuhan kalori harian.
-- Menyimpan hasil analisis dalam format `.txt` dan `.json`.
+MealMind V4 is an **Artificial Intelligence (AI)**–based system capable of:
+
+- Detecting multiple types of food from an image using a YOLOv8 object detection model
+- Calculating the total nutritional content of the detected foods (calories, protein, carbohydrates, fat, fiber)
+- Computing the user’s **Body Mass Index (BMI)** from weight and height
+- Estimating the user’s daily caloric needs
+- Analyzing whether the detected meal aligns with the user’s daily caloric requirement
+- Saving the analysis results in both `.txt` and `.json` formats
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## 🛠️ Technologies Used
 
 - Python 3.x
 - Ultralytics YOLOv8
@@ -25,25 +26,10 @@ MealMind V4 adalah sebuah sistem berbasis **Artificial Intelligence (AI)** yang 
 
 ---
 
-## 📦 Instalasi
+## 📦 Installation
 
-Clone repository ini:
+Clone this repository:
 
 ```bash
 git clone https://github.com/username/MealMindV4.git
 cd MealMindV4
-
-## Install semua dependensi yang diperlukan:
-pip install -r requirements.txt
-
-Pastikan folder MealMindV4 memiliki:
-
-Model YOLOv8 (model/best.pt)
-
-Database nutrisi (data/mealmind_v4_nutrisi.csv)
-
-Gambar makanan untuk inference (results/test_image_2.jpg)
-
-##Jalankan program MealMind:
-python mealmind_v4.py
-
